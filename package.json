@@ -1,0 +1,22 @@
+{
+  "name": "hello-ts-mocha",
+  "version": "1.0.0",
+  "description": "getting started and testing with mocha",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "KSR",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^2.0.10"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+        "prepublish": "tsc index.ts --module commonjs ",
+        "pretest": "tsc test/*Test.ts --module commonjs",
+        "test": "mocha"
+    }
+}
