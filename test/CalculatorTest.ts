@@ -1,4 +1,7 @@
 /// <reference path="../typings/mocha/mocha.d.ts" />
+
+//Author KSR
+
 import Calculator from '../index';
 import {beforeeach} from './helper';
 
