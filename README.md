@@ -7,7 +7,7 @@ How it works?
 1. Have a helper.ts (may be js if your are not using typescript) have a exported function/hook which can be used later in any 
 test file.
 2. We have a CalculatorTest.ts file having mocha test case using helper file to utilize the hook. In this case we dont need to
-declare beforeeach block since we can garb common functionality from the helper(global hook).
+declare beforeeach block since we can grab common functionality from the helper(global hook).
 
 
 
